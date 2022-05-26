@@ -11,9 +11,6 @@ def home():
 def blog():
     return "Hello, from App!"
 
-@app.route('/home')
-def blog():
-    return "Hello, from Home!"
 
 if __name__ == '__main__':
     app.run(threaded=True,host='0.0.0.0',port=8081)
